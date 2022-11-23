@@ -1,0 +1,118 @@
+version: "3.1"
+nlu:
+- intent: bot_challenge
+  examples: |
+    - are you a human?
+    - am I talking to a bot?
+    - are you a bot?
+- intent: greet
+  examples: |
+    - hii
+    - good evening
+    - hi
+    - helloo
+    - good afternoon
+    - hello there
+    - hello
+    - goodmorning
+    - goodevening
+- intent: goodbye
+  examples: |
+    - see you around
+    - good night
+    - see you later
+    - cu
+    - bye bye
+    - have a nice day
+    - goodby
+    - bye
+    - goodbye
+    - cee you later
+- intent: affirm
+  examples: |
+    - yah
+    - yes
+    - yesh
+    - right
+    - sure
+    - indeed
+    - of course
+    - yeah
+    - yess
+    - correct
+- intent: emergency_ambulance
+  examples: |
+    - We've had an accident, people's health is critical
+    - Please provide me the number of paramedics
+    - accident
+    - People are seriously injured, high-priority is required, we need to reach the ambulance
+    - Ambulance needed
+    - Necessity to save people life, they are hurt and in danger, ambulance needed
+    - I need assistant
+    - I need to call the ambulance
+    - I don't feel my legs, I need urgency help, give me mobile hospital number
+- intent: emergency_fire
+  examples: |
+    - Fire is everywhere!
+    - Fire!
+    - A fire has spread in the room, I have to call the firefighters, it's urgent!!!
+    - I need to call firefighters, fire has spread into the building, is not a fire drill
+    - I have to call firefighters and use fire exit!!!
+    - I need to phone the firefighters
+    - It's urgent I need to call the fire department, please
+    - We cannot stop the fire, we need to call the fire brigade
+    - I need to contact the firefighters
+    - My house is burning, please I need to contact the firefighters
+    - Fire is developing very fast, I have to call firemen
+- intent: deny
+  examples: |
+    - not really
+    - i don't think so
+    - noo
+    - never
+    - no no
+    - nopee
+    - no way
+    - not
+    - oh no
+    - no
+    - absolutely not
+    - nah
+- intent: emergency_abuse
+  examples: |
+    - rape
+    - my mom beats me
+    - beating
+    - my father raped me, I have to call someone
+    - my father beats me
+    - it's urgent my family is beating me
+    - my mother beats me
+    - I have to call someone i was raped by my brother
+    - abuse
+    - my grandfather beats me
+    - I have to call someone i was raped by my father
+    - my father beat me
+- intent: checking_emergency
+  examples: |
+    - omg
+    - can you help me?
+    - HELP
+    - very sad
+    - we need help right now
+    - my day is horrible
+    - I need to contact someone right away
+    - i am in pain
+    - oh my god
+    - I need help
+    - It's urgent
+    - We have emergency at house
+    - I have an emergency situation
+    - i dont feel very well
+    - We have emergency at home
+    - i don't know what to do
+    - We need an urgent help
+    - it's burning
+    - i am confused
+    - Could you help me?
+    - help
+    - We need an urgent help!!!

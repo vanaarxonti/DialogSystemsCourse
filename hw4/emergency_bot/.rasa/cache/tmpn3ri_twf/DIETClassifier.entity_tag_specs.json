@@ -1,0 +1,52 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-Ambulance",
+      "2": "I-Ambulance",
+      "3": "L-Ambulance",
+      "4": "U-Ambulance",
+      "5": "B-EmergencyCheck",
+      "6": "I-EmergencyCheck",
+      "7": "L-EmergencyCheck",
+      "8": "U-EmergencyCheck",
+      "9": "B-abuse",
+      "10": "I-abuse",
+      "11": "L-abuse",
+      "12": "U-abuse",
+      "13": "B-fire",
+      "14": "I-fire",
+      "15": "L-fire",
+      "16": "U-fire",
+      "17": "B-rape",
+      "18": "I-rape",
+      "19": "L-rape",
+      "20": "U-rape",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-Ambulance": 1,
+      "I-Ambulance": 2,
+      "L-Ambulance": 3,
+      "U-Ambulance": 4,
+      "B-EmergencyCheck": 5,
+      "I-EmergencyCheck": 6,
+      "L-EmergencyCheck": 7,
+      "U-EmergencyCheck": 8,
+      "B-abuse": 9,
+      "I-abuse": 10,
+      "L-abuse": 11,
+      "U-abuse": 12,
+      "B-fire": 13,
+      "I-fire": 14,
+      "L-fire": 15,
+      "U-fire": 16,
+      "B-rape": 17,
+      "I-rape": 18,
+      "L-rape": 19,
+      "U-rape": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  }
+]

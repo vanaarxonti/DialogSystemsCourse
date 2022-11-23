@@ -1,0 +1,133 @@
+version: "3.1"
+                                                           
+stories:
+- story: emergency path 1
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: checking_emergency
+  - action: utter_checking_emergency
+  - intent: affirm
+  - action: utter_kind_of_emergency
+  - intent: emergency_fire
+  - action: utter_ask_emergency_country
+  - intent: country
+  - action: utter_helping_bot
+  - action: utter_goodbye
+
+- story: emergency path 2
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: checking_emergency
+  - action: utter_checking_emergency
+  - intent: affirm
+  - action: utter_kind_of_emergency
+  - intent: emergency_ambulance
+  - action: utter_ask_emergency_country
+  - intent: country
+  - action: utter_helping_bot
+  - action: utter_goodbye
+
+- story: emergency path 3
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: checking_emergency
+  - action: utter_checking_emergency
+  - intent: affirm
+  - action: utter_kind_of_emergency
+  - intent: emergency_fire
+  - action: utter_ask_emergency_country
+  - intent: country
+  - action: utter_helping_bot
+  - action: utter_goodbye
+
+- story: emergency path 4
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: checking_emergency
+  - action: utter_checking_emergency
+  - intent: affirm
+  - action: utter_kind_of_emergency
+  - intent: emergency_police
+  - action: utter_ask_emergency_country
+  - intent: country
+  - action: utter_helping_bot
+  - action: utter_goodbye
+  - intent: goodbye
+  - action: utter_goodbye 
+
+
+- story: emergency path 5
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: checking_emergency
+  - action: utter_checking_emergency
+  - intent: deny
+  - action: utter_goodbye
+  - intent: goodbye
+  - action: utter_goodbye 
+  
+
+- story: emergency path 6
+  steps:
+  - intent: greeting
+  - action: utter_greet
+  - intent: deny
+  - action: utter_checking_emergency
+  - intent: affirm
+  - action: utter_kind_of_emergency
+  - intent: emergency_fire
+  - action: utter_ask_emergency_country
+  - intent: country
+  - action: utter_helping_bot
+  - action: utter_goodbye
+  - intent: goodbye
+  - action: utter_goodbye 
+
+- story: emergency path 7
+  steps:
+  - action: utter_greet
+  - intent: emergency_bot_challenge
+  - action: utter_emergency_bot
+  - action: utter_kind_of_emergency
+  - intent: deny
+  - action: utter_goodbye 
+  - intent: goodbye
+  - action: utter_goodbye 
+
+- story: emergency path 8
+  steps:
+  - action: utter_greet
+  - intent: greeting
+  - action: utter_checking_emergency
+  - intent: affirm
+  - action: utter_kind_of_emergency
+  - intent: emergency_police
+  - action: utter_ask_emergency_country
+  - intent: country
+  - action: utter_helping_bot
+  - action: utter_goodbye
+  - intent: goodbye
+  - action: utter_goodbye 
+
+- story: emergency path 9
+  steps:
+  - action: utter_greet
+  - intent: greeting
+  - action: utter_checking_emergency
+  - intent: affirm
+  - action: utter_kind_of_emergency
+  - intent: emergency_abuse
+  - action: utter_ask_emergency_country
+  - intent: country
+  - action: utter_helping_bot
+  - action: utter_goodbye
+  - intent: goodbye
+  - action: utter_goodbye 
+
+
+

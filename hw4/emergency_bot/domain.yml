@@ -1,0 +1,172 @@
+version: "3.1"
+
+intents:
+  - greeting
+  - tell_me_your_name
+  - goodbye
+  - affirm
+  - deny
+  - checking_emergency
+  - emergency_abuse
+  - emergency_police
+  - emergency_fire
+  - emergency_ambulance
+  - emergency_bot_challenge
+  - country
+  
+
+slots:
+  Police:
+    type: categorical
+    values:
+        - Cops
+        - policeman
+        - policemen
+        - policewoman
+        - crime prevention
+        - police authority
+        - protective services
+        - authority police
+    mappings:
+    - type: from_entity
+      entity: fire
+
+  ambulance:  
+    type: categorical
+    values:
+        - hospital wagon
+        - mobile hospital
+        - sick transport
+        - paramedics
+        - injuries
+        - paramedics station
+        - paramedics department
+        - trauma
+        - hospital assistant
+    mappings:
+    - type: from_entity
+      entity: ambulance
+  fire:
+    type: categorical
+    values:
+        - fire department
+        - fire brigade
+        - firefighters
+        - fire engine
+        - fire protection
+        - fire authority
+        - fire and rescue service
+        - fire station
+        - firefighters station
+        - fireman
+    mappings:
+    - type: from_entity
+      entity: fire
+  abuse:
+    type: categorical
+    values:
+        - beating
+        - rape
+        - abuse
+        - physical abuse
+    mappings:
+    - type: from_entity
+      entity: abuse
+  EmergencyCheck:
+    type: categorical
+    values:
+        - help
+        - hurry up
+        - urgent
+        - emergency 
+    mappings:
+    - type: from_entity
+      entity: EmergencyCheck
+  country:  
+    type: categorical
+    values:
+        - Greece
+        - United Kingdom
+        - United States of America
+        - Germany
+        - France
+        - India
+        - Zimbambwe
+    mappings:
+    - type: from_entity
+      entity: country
+  Emergency_bot_challenge:  
+    type: categorical
+    values:
+        - robot
+        - bot
+        - chatbot
+        - boot
+        - Bot
+        - Botie
+        - roboooot
+    mappings:
+    - type: from_entity
+      entity: robot
+  goodbye:  
+    type: categorical
+    values:
+        - goodbye
+        - bye
+        - antios
+        - goodby
+        - Bye
+        - arrivederci
+        - bye
+    mappings:
+    - type: from_entity
+      entity: goodbye
+  
+
+  
+entities:
+- ambulance
+- fire
+- abuse
+- help
+- EmergencyCheck
+- goodbye
+- greeting
+- country
+- Police
+- robot
+     
+ 
+responses:
+  utter_greet:
+  - text: "Hey you! I am Ares, your emergency bot ! Is there any emergency situation?"
+
+  utter_affirm:
+  - text: "You need help right?!"
+
+  utter_checking_emergency:
+  - text: "Are you in emergency situation? Please say yes, or no!"
+
+  utter_kind_of_emergency:
+  - text: "In what kind of emergency are you?!"
+  
+  utter_deny:  
+  - text: "You don't need help, correct?!"
+
+  utter_goodbye:
+  - text: "Thanks for your interaction. In case of any emergency situation, you can talk to me again. Bye!"
+
+  utter_ask_emergency_country:
+  - text: "Ok, don't worry, we'll find a solution.Which country do you live in?."
+
+  utter_helping_bot:
+  - text: "Thank you for your information, so I'll give you an emergency number. Take your time,and call!"
+  
+  utter_emergency_bot:
+  - text: "Well, I am bot for emergency situations!"
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

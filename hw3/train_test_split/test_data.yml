@@ -1,0 +1,45 @@
+version: "3.1"
+nlu:
+- intent: bot_challenge
+  examples: |
+    - am I talking to a human?
+- intent: greet
+  examples: |
+    - good morning
+    - hey there
+    - hey
+- intent: goodbye
+  examples: |
+    - byee
+    - good by
+- intent: affirm
+  examples: |
+    - ofc
+    - y
+- intent: emergency_ambulance
+  examples: |
+    - There has been an accident people seem to have trauma, we need to call sick transport
+    - Ambulance now!
+    - Call paramedics, please
+- intent: emergency_fire
+  examples: |
+    - I need to call the firefighters
+    - FIRE!!!
+- intent: deny
+  examples: |
+    - nope
+    - definetely no
+    - don't think so
+- intent: emergency_abuse
+  examples: |
+    - abused
+    - my siblings beats me
+    - i was abused by my family
+    - my family beats me
+- intent: checking_emergency
+  examples: |
+    - Please provide me the number
+    - T have to call someone, we need help!!!
+    - I have to call someone, please hurry up
+    - We need help right now!
+    - I am scared, it's urgent!!!

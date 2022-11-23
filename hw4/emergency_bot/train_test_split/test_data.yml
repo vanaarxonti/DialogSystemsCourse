@@ -1,0 +1,67 @@
+version: "3.1"
+nlu:
+- intent: greeting
+  examples: |
+    - [hi](greeting)
+    - [hello](greeting)
+    - [hey] (greeting)
+- intent: emergency_fire
+  examples: |
+    - I need to phone the [firefighters](fire)
+    - We cannot stop the fire, we need to call the [fire brigade](fire)
+- intent: emergency_bot_challenge
+  examples: |
+    - Hey [roboooot](robot)
+    - Are you a [chatbot](robot)?
+    - [Bot](robot)
+- intent: goodbye
+  examples: |
+    - [byee](goodbye)
+    - [goodby](goodbye)
+    - [BYEE](goodbye)
+- intent: affirm
+  examples: |
+    - sure
+    - yesh
+    - y
+- intent: deny
+  examples: |
+    - noo
+    - never
+    - nope
+- intent: emergency_abuse
+  examples: |
+    - my grandfather [beats](abuse) me
+    - my mother [beats](abuse) me
+    - [rape](abuse)
+    - [abuse](abuse)
+- intent: emergency_ambulance
+  examples: |
+    - There has been an accident people seem to have trauma, we need to call [sick transport] (ambulance)
+    - [Ambulance](ambulancenow!
+    - We've had an accident, people's health is critical
+    - [Ambulance](ambulance needed
+- intent: country
+  examples:
+  - text: |
+      [United States of America](country)
+  - text: |
+      [Botswana](country)	
+  - text: |
+      [Angola](country)		
+  - text: |
+      [United Kingdom](country)
+- intent: emergency_police
+  examples: |
+    - [Shootings] (Police)
+    - Urgent help from the [authority](Police) is required, please
+    - Help from the [cops](Police) is required, please
+    - [Murder](Police)
+    - Give me the [protective services](Police) number, please
+- intent: checking_emergency
+  examples: |
+    - Could you help me?
+    - omg
+    - We have [emergency](EmergencyCheck) at house
+    - i dont feel very well
+    - I need to contact someone right away

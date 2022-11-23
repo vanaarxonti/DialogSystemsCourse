@@ -1,0 +1,194 @@
+version: "3.1"
+nlu:
+- intent: greeting
+  examples: |
+    - [hello there](greeting)
+    - [hii](greeting)
+    - [goodmorning](greeting)
+    - [goodevening](greeting)
+    - [good morning](greeting)
+    - [hey there](greeting)
+    - [good evening](greeting)
+    - [good afternoon](greeting)
+    - [helloo](greeting)
+- intent: emergency_fire
+  examples: |
+    - A fire has spread in the room, I have to call the [firefighters](fire), it's urgent!!!
+    - I need to call [firefighters](fire), fire has spread into the building, is not a fire drill
+    - [Fire](fire) is everywhere!
+    - I have to call [firefighters](fire) and use fire exit!!!
+    - FIRE!!!
+    - It's urgent I need to call the [fire department](fire), please
+    - [Fire](fire) is developing very fast, I have to call [firemen](fire)
+    - [Fire](fire)!
+    - My house is burning, please I need to contact the [firefighters](fire)
+    - I need to call the [firefighters] (fire)
+    - I need to contact the [firefighters](fire)
+- intent: emergency_bot_challenge
+  examples: |
+    - hey [robot](robot)
+    - hey [boot](robot)
+    - are you a [bot](robot)?
+    - am I talking to a [bot]?
+    - are you a human?
+    - heeey [bot](robot)
+    - are you a [robot](robot)?
+    - are you real ?
+    - [boot](robot)
+    - am I talking to a human?
+    - Hey [Botiie](robot)
+- intent: goodbye
+  examples: |
+    - [cee you later](goodbye)
+    - [arrivederci](goodbye)
+    - [good by](goodbye)
+    - [bye](goodbye)
+    - [goodbye](goodbye)
+    - [bye bye](goodbye)
+    - [good night](goodbye)
+    - [have a nice day](goodbye)
+    - [antios](goodbye)
+    - [see you later](goodbye)
+    - [see you around](goodbye)
+    - [cu](goodbye)
+- intent: affirm
+  examples: |
+    - yah
+    - yes
+    - correct
+    - of course
+    - ofc
+    - yess
+    - yee
+    - indeed
+    - yup
+    - yeah
+    - right
+    - yeep
+- intent: deny
+  examples: |
+    - don't think so
+    - no no
+    - absolutely not
+    - definetely no
+    - no way
+    - no
+    - nopee
+    - nah
+    - not really
+    - not
+    - i don't think so
+    - oh no
+- intent: emergency_abuse
+  examples: |
+    - [physical abuse] (abuse)
+    - I have to call someone i was [raped](abuse) by my father
+    - it's urgent my family is [beating](abuse) me
+    - i was [abused](abuse) by my family
+    - [abused](abuse)
+    - my mom [beat](abuse) me
+    - my father [beats] (abuse)me
+    - my father [beat](abuse) me
+    - [Rape](abuse)
+    - I have to call someone i was [raped] (abuse) by my father
+    - [beating](abuse)
+    - my siblings [beats](abuse) me
+    - my father [raped](abuse) me, I have to call someone
+    - my family [beats](abuse) me
+    - I have to call someone i was [raped](abuse) by my brother
+- intent: emergency_ambulance
+  examples: |
+    - Find the [emergency truck](ambulance)
+    - Please alarm [paramedics](ambulance)
+    - Please provide me the number of [paramedics] (ambulance)
+    - [accident] (ambulance)
+    - People are seriously injured, high-priority is required, we need to reach the [ambulance](ambulance)
+    - Necessity to save people life, they are hurt and in danger, [ambulance needed](ambulance)
+    - I need to call the [ambulance](ambulance
+    - Give me the [sick transport](ambulance) number, please
+    - I need [hospital assistant](ambulance
+    - Necessary help, people are wounded, we need to call the [ambulance](ambulance)
+    - I need assistance, call the [red cross truck](ambulance), please
+    - Please contact [paramedics department](ambulance)
+    - Call [paramedics](ambulance), please
+    - Call [paramedics](ambulance), now!
+    - I don't feel my legs, I need urgency help, give me [mobile hospital number] (ambulance)
+- intent: country
+  examples:
+  - text: |
+      [Tunisia](country)
+  - text: |
+      [Cameroon](country)
+  - text: |
+      [Benin](country)	
+  - text: |
+      [Algeria](country)
+  - text: |
+      [Austria](country)
+  - text: |
+      [Burundi](country)	
+  - text: |
+      [Burkina Faso](country)	
+  - text: |
+      [England](country)
+  - text: |
+      [Germany](country)
+  - text: |
+      [Zimbambwe](country)
+  - text: |
+      [India](country)
+  - text: |
+      [France](country)
+  - text: |
+      [Ascension Island](country)	
+  - text: |
+      [Greece](country)
+  - text: |
+      [Sweden](country)
+- intent: emergency_police
+  examples: |
+    - I have to call the [police](Police)
+    - I need to call the [police force](Police) there are shots in the street
+    - I have to reach the [Old Bill](Police), please
+    - I need to phone [military police](Police), please
+    - Urgent help of the [policemen](Police) is required, please
+    - I have to contact the [law](Police), please
+    - I have to phone the [man](Police), please
+    - I have to call the [crime prevention](Police), please
+    - [Killings](Police)
+    - Show me the [police department](Police) number, please
+    - I have to call the [officer](Police), please
+    - I need the [cops](Police)
+    - I need to reach the [law enforcement](Police)
+    - I have to call the [policeman](Police), please
+    - I need to contact the [police station](Police), please
+    - I need an urgent help of the [police officer](Police), please
+    - I need an urgent help from the [gendarmerie](Police), please
+    - Help from the [police service](Police) is required, please
+    - Have to call the [police] (police)
+    - I need a [policewoman](Police), please
+    - Someone is [shooting] (Police)
+- intent: checking_emergency
+  examples: |
+    - [help] (EmergencyCheck)
+    - Please provide me the number
+    - We need an urgent help
+    - i am in pain
+    - we need help right now
+    - I have an emergency situation
+    - can you help me?
+    - i don't know what to do
+    - T have to call someone, we need help!!!
+    - [HELP](EmergencyCheck)
+    - It's [urgent](EmergencyCheck)
+    - I have to call someone, please hurry up
+    - it's burning
+    - very sad
+    - We have [emergency](EmergencyCheck) at home
+    - We need [help](EmergencyCheck) right now!
+    - I am scared, it's urgent!!!
+    - I need [help](EmergencyCheck)
+    - oh my god
+    - my day is horrible
+    - i am confused
+    - We need an [urgent](EmergencyCheck) help!!!

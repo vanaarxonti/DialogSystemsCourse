@@ -1,0 +1,50 @@
+Interaction Samples -- Emergency bot "Ares"
+
+Emergency path - FIRE
+
+user: "hi"
+Ares: "Hey you! I am Ares, your emergency bot ! Is there any emergency situation?"
+user: "yes"
+Ares: "In what kind of emergency are you?!"
+user:  "fire"
+Ares:  "Ok, don't worry, we'll find a solution.Which country do you live in?."
+user:  "Greece"
+Ares:   "Thank you for your information, so I'll give you an emergency number. Take your time,and  call!" 
+
+Ares:   "Thanks for your interaction. In case of any emergency situation, you can
+             talk to me again. Bye!"
+
+user: "Goodbye"
+Ares: "Goodbye"
+
+
+Emergency path - Abuse
+
+user: "hi"
+Ares: "Hey you! I am Ares, your emergency bot ! Is there any emergency situation?"
+user: "yes"
+Ares: "In what kind of emergency are you?!"
+user:  "fire"
+Ares:  "Ok, don't worry, we'll find a solution.Which country do you live in?."
+user:  "Greece"
+Ares:   "Thank you for your information, so I'll give you an emergency number. Take your time,and call!" 
+
+Ares:   "Thanks for your interaction. In case of any emergency situation, you can
+             talk to me again. Bye!"
+
+user: "Goodbye"
+Ares: "Goodbye"
+
+Emergency path - Emergency_bot_challenge
+
+user: "hi"
+Ares: "Hey you! I am Ares, your emergency bot ! Is there any emergency situation?"
+user: "am I talking to a bot?"
+Ares: "Well, I am bot for emergency situations!"
+Ares: "Hey you! I am Ares, your emergency bot ! Is there any emergency situation?"
+user:  "No"
+Ares:   "Thanks for your interaction. In case of any emergency situation, you can
+             talk to me again. Bye!"
+user: "Goodbye"
+Ares: "Goodbye"
+

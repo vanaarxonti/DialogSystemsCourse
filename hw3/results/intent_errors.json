@@ -1,0 +1,130 @@
+[
+  {
+    "text": "shots everywhere",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "emergency_fire",
+      "confidence": 0.9352549314498901
+    }
+  },
+  {
+    "text": "killing nearby",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3933503329753876
+    }
+  },
+  {
+    "text": "we need help from the police",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "checking_emergency",
+      "confidence": 0.9999657869338989
+    }
+  },
+  {
+    "text": "POLICE!",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9179918766021729
+    }
+  },
+  {
+    "text": "I need to contact with the police",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "emergency_fire",
+      "confidence": 0.6497839093208313
+    }
+  },
+  {
+    "text": "We need the service of the police, here.",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "emergency_fire",
+      "confidence": 0.3973376452922821
+    }
+  },
+  {
+    "text": "Police service",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9374123811721802
+    }
+  },
+  {
+    "text": "Police service number",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.9332872629165649
+    }
+  },
+  {
+    "text": "Police officers are needed",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "emergency_ambulance",
+      "confidence": 0.8860747814178467
+    }
+  },
+  {
+    "text": "It's urgent, we need the police service.",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "checking_emergency",
+      "confidence": 0.9991439580917358
+    }
+  },
+  {
+    "text": "I need to call the police, theft was happened.",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "emergency_fire",
+      "confidence": 0.4540732502937317
+    }
+  },
+  {
+    "text": "Theft",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9590671062469482
+    }
+  },
+  {
+    "text": "Killing",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9378499984741211
+    }
+  },
+  {
+    "text": "Shots",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.867021381855011
+    }
+  },
+  {
+    "text": "Please the police is required",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "emergency_ambulance",
+      "confidence": 0.7616499662399292
+    }
+  },
+  {
+    "text": "Police is required.",
+    "intent": "emergency_police",
+    "intent_prediction": {
+      "name": "emergency_ambulance",
+      "confidence": 0.9651561975479126
+    }
+  }
+]

@@ -1,0 +1,158 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hii
+    - helloo
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - goodby
+    - good by
+    - byee
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - correct
+    - right
+    - yah
+    - yeah
+    - yesh
+    - yess
+    - sure
+    - ofc
+  
+- intent: deny
+  examples: |
+    - no
+    - not
+    - no no
+    - not really
+    - nah
+    - nope
+    - no way
+    - definetely no
+    - don't think so
+    - absolutely not
+    - i don't think so
+    - never
+    - no way
+    - nopee
+    - noo
+    - oh no
+
+- intent: checking_emergency
+  examples: |
+    -help
+    -HELP
+    -It's urgent 
+    -I need help
+    -I have to call someone, please hurry up
+    -I am scared, it's urgent!!!
+    -T have to call someone, we need help!!!
+    -I have an emergency situation
+    -I need to contact someone right away
+    -We have emergency at home
+    -We have emergency at house
+    -Please provide me the number
+    -We need an urgent help!!!
+    -We need an urgent help
+    -We need help right now!
+    -we need help right now
+    -i am in pain
+    -i am confused
+    -i don't know what to do
+    -it's burning
+    -omg
+    -oh my god
+    -my day is horrible
+    -very sad
+    -i dont feel very well
+    -can you help me?
+    -Could you help me?
+
+- intent: emergency_abuse
+  examples: |
+    - my siblings beats me 
+    - i was abused by my family
+    - my father beat me
+    - my father beats me
+    - my father raped me, I have to call someone
+    - my mom beats me 
+    - my family beats me
+    - my mother beats me
+    - my grandfather beats me
+    - I have to call someone i was raped by my father
+    - I have to call someone i was raped by my father
+    - I have to call someone i was raped by my brother
+    - it's urgent my family is beating me
+    - abuse
+    - abused
+    - beating
+    - rape
+
+ 
+- intent: emergency_fire
+  examples: |
+    - It's urgent I need to call the fire department, please
+    - A fire has spread in the room, I have to call the firefighters, it's urgent!!!
+    - I need to call firefighters, fire has spread into the building, is not a fire drill
+    - FIRE!!!
+    - Fire!
+    - I have to call firefighters and use fire exit!!!
+    - I need to call the firefighters
+    - My house is burning, please I need to contact the firefighters
+    - I need to contact the firefighters
+    - I need to phone the firefighters
+    - Fire is developing very fast, I have to call firemen
+    - We cannot stop the fire, we need to call the fire brigade
+    - Fire is everywhere!
+
+- intent: emergency_ambulance
+  examples: | 
+    - Call paramedics, please
+    - I need assistant
+    - I need to call the ambulance
+    - Please provide me the number of paramedics
+    - There has been an accident people seem to have trauma, we need to call sick transport
+    - Necessity to save people life, they are hurt and in danger, ambulance needed
+    - Ambulance needed
+    - Ambulance now!
+    - I don't feel my legs, I need urgency help, give me mobile hospital number
+    - We've had an accident, people's health is critical
+    - accident 
+    - People are seriously injured, high-priority is required, we need to reach the ambulance
+   
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    
