@@ -102,4 +102,5 @@ stories:
   - action: utter_goodbye
 
 Όσον αφορά το interactive section θα μπορούσε το chatbot να έχει πρόσβαση στην παρακάτω ιστοσελίδα η οποία παρέχει emergency numbers για όλες τις χώρες του κόσμου.
-   link wikipedia emergency numbers: shorturl.at/jmDY3
+   link wikipedia emergency numbers: https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers#:~:text=Police%20%2D%20999%3B%20Ambulance%20%2D%20997,998%3B%20Traffic%20police%20%2D%20993.&text=Mobile%20phones%20%2D%20112%20or%20911,%3B%20Traffic%20police%20%2D%206547%200000.
+   
