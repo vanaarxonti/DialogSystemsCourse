@@ -1,0 +1,21 @@
+version: "3.1"
+
+rules:
+
+
+- rule: Say `Hello` whenever the user sends a message with intent `greeting`
+  conversation_start: true
+  steps:
+  - intent: greeting
+  - action: utter_greet
+
+- rule: Say `Goodbye and stay safe ! whenever the user sends a message with intent `goodbye`
+  conversation_start: true
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Bot challenge
+  steps:
+  - intent: emergency_bot_challenge
+  - action: utter_emergency_bot

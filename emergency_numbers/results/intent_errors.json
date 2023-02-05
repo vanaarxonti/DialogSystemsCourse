@@ -1,0 +1,74 @@
+[
+  {
+    "text": "Good afternoon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.9996987581253052
+    }
+  },
+  {
+    "text": "antios",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "country",
+      "confidence": 0.7677944302558899
+    }
+  },
+  {
+    "text": "Hello are you a digital assistant",
+    "intent": "emergency_bot_challenge",
+    "intent_prediction": {
+      "name": "emergency_ambulance",
+      "confidence": 0.9979155659675598
+    }
+  },
+  {
+    "text": "it's burning",
+    "intent": "checking_emergency",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.7885036468505859
+    }
+  },
+  {
+    "text": "i dont feel very well",
+    "intent": "checking_emergency",
+    "intent_prediction": {
+      "name": "Deny",
+      "confidence": 0.7555824518203735
+    }
+  },
+  {
+    "text": "I need to contact someone right away",
+    "intent": "checking_emergency",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.7007808089256287
+    }
+  },
+  {
+    "text": "Mercii",
+    "intent": "thankyounote",
+    "intent_prediction": {
+      "name": "greeting",
+      "confidence": 0.792817234992981
+    }
+  },
+  {
+    "text": "France",
+    "intent": "country",
+    "intent_prediction": {
+      "name": "emergency_ambulance",
+      "confidence": 0.9952627420425415
+    }
+  },
+  {
+    "text": "Kazaksthan",
+    "intent": "country",
+    "intent_prediction": {
+      "name": "thankyounote",
+      "confidence": 0.9999585151672363
+    }
+  }
+]

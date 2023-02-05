@@ -1,0 +1,482 @@
+[
+  {
+    "text": "FIRE",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "fire",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.9974840879440308,
+        "value": "FIRE",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Good afternoon",
+    "entities": [
+      {
+        "start": 0,
+        "end": 14,
+        "value": "Good afternoon",
+        "entity": "goodbye"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "greeting",
+        "start": 0,
+        "end": 14,
+        "confidence_entity": 0.9953007698059082,
+        "value": "Good afternoon",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Bye now",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "Bye now",
+        "entity": "goodbye"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "goodbye",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.9303385615348816,
+        "value": "Bye",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "antios",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "antios",
+        "entity": "goodbye"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "[dont think] so(deny)",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "deny",
+        "start": 1,
+        "end": 11,
+        "confidence_entity": 0.8626952767372131,
+        "value": "dont think",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "no way",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "no way",
+        "entity": "deny"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "deny",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.9992330074310303,
+        "value": "no",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I dontthink so",
+    "entities": [
+      {
+        "start": 2,
+        "end": 6,
+        "value": "dont",
+        "entity": "deny"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "deny",
+        "start": 12,
+        "end": 14,
+        "confidence_entity": 0.6995429396629333,
+        "value": "so",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hello are you a digital assistant",
+    "entities": [
+      {
+        "start": 16,
+        "end": 33,
+        "value": "digital assistant",
+        "entity": "robot"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "ambulance",
+        "start": 16,
+        "end": 33,
+        "confidence_entity": 0.9795147180557251,
+        "value": "digital assistant",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Are you an AI",
+    "entities": [
+      {
+        "start": 11,
+        "end": 13,
+        "value": "AI",
+        "entity": "robot"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hi there are you an automaton",
+    "entities": [
+      {
+        "start": 20,
+        "end": 29,
+        "value": "automaton",
+        "entity": "robot"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Give a different service",
+    "entities": [
+      {
+        "start": 7,
+        "end": 16,
+        "value": "different",
+        "entity": "new_query"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Police",
+        "start": 17,
+        "end": 24,
+        "confidence_entity": 0.9451826214790344,
+        "value": "service",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Can you provide me with another emergency service number",
+    "entities": [
+      {
+        "start": 24,
+        "end": 31,
+        "value": "another",
+        "entity": "new_query"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "new_query",
+        "start": 24,
+        "end": 31,
+        "confidence_entity": 0.9996757507324219,
+        "value": "another",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "Police",
+        "start": 42,
+        "end": 49,
+        "confidence_entity": 0.9795646667480469,
+        "value": "service",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "it's burning",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "burning",
+        "entity": "EmergencyCheck"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "greeting",
+        "start": 5,
+        "end": 12,
+        "confidence_entity": 0.8068492412567139,
+        "value": "burning",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "i dont feel very well",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "deny",
+        "start": 2,
+        "end": 6,
+        "confidence_entity": 0.9093450307846069,
+        "value": "dont",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "ambulance",
+        "start": 17,
+        "end": 21,
+        "confidence_entity": 0.319623738527298,
+        "value": "well",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "We want an urgent help",
+    "entities": [
+      {
+        "start": 11,
+        "end": 17,
+        "value": "urgent",
+        "entity": "EmergencyCheck"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "EmergencyCheck",
+        "start": 18,
+        "end": 22,
+        "confidence_entity": 0.9990419745445251,
+        "value": "help",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "We've had an accident people's health is critical",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "ambulance",
+        "start": 41,
+        "end": 49,
+        "confidence_entity": 0.5514567494392395,
+        "value": "critical",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Mercii",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Mercii",
+        "entity": "thanks"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "greeting",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.5557098984718323,
+        "value": "Mercii",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "(Marvelous)(thanks)",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "thanks",
+        "start": 1,
+        "end": 18,
+        "confidence_entity": 0.9851120114326477,
+        "value": "Marvelous)(thanks",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Thanks for your help",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "Thanks",
+        "entity": "thanks"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "thanks",
+        "start": 0,
+        "end": 6,
+        "confidence_entity": 0.9933193922042847,
+        "value": "Thanks",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "EmergencyCheck",
+        "start": 16,
+        "end": 20,
+        "confidence_entity": 0.8180550336837769,
+        "value": "help",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "New zeland",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "New zeland",
+        "entity": "country"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "France",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "France",
+        "entity": "country"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Kazaksthan",
+    "entities": [
+      {
+        "start": 0,
+        "end": 10,
+        "value": "Kazaksthan",
+        "entity": "country"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "thanks",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.988701581954956,
+        "value": "Kazaksthan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What is the sheriff number",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "value": "sheriff",
+        "entity": "Police"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I need to phone military police please",
+    "entities": [
+      {
+        "start": 16,
+        "end": 31,
+        "value": "military police",
+        "entity": "Police"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Police",
+        "start": 25,
+        "end": 31,
+        "confidence_entity": 0.9343108534812927,
+        "value": "police",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I have to call the police",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "police",
+        "entity": "Police"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "We want the service of the police here",
+    "entities": [
+      {
+        "start": 27,
+        "end": 33,
+        "value": "police",
+        "entity": "Police"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "Police",
+        "start": 12,
+        "end": 19,
+        "confidence_entity": 0.9979968667030334,
+        "value": "service",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "Police",
+        "start": 27,
+        "end": 33,
+        "confidence_entity": 0.9994284510612488,
+        "value": "police",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

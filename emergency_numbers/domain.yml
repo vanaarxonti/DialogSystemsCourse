@@ -1,0 +1,188 @@
+---
+version: "3.1"
+intents:
+  - greeting
+  - new_query
+  - goodbye
+  - affirm
+  - Deny
+  - checking_emergency
+  - emergency_abuse
+  - emergency_police
+  - emergency_fire
+  - emergency_ambulance
+  - country
+  - emergency_bot_challenge
+  - thankyounote
+slots:
+  Police:
+    type: categorical
+    values:
+      - Cops
+      - policeman
+      - policemen
+      - policewoman
+      - crime prevention
+      - police authority
+      - protective services
+      - authority police
+      - gendarmerie
+      - police detective
+      - police inspector
+      - police liutenant
+      - police captain
+      - police department
+      - police commissioner
+      - law enforcement
+      - district police
+      - police van
+      - police squad
+      - military police
+      - sheriff
+    mappings:
+      - type: from_entity
+        entity: Police
+  ambulance:
+    type: categorical
+    values:
+      - hospital wagon
+      - mobile hospital
+      - sick transport
+      - paramedics
+      - injuries
+      - paramedics station
+      - paramedics department
+      - trauma
+      - hospital assistant
+      - emergency room
+      - medical help
+      - emergency truck
+    mappings:
+      - type: from_entity
+        entity: ambulance
+  fire:
+    type: categorical
+    values:
+      - fire department
+      - fire brigade
+      - firefighters
+      - fire engine
+      - fire protection
+      - fire authority
+      - fire and rescue service
+      - fire station
+      - firefighters station
+      - fireman
+      - firemen
+    mappings:
+      - type: from_entity
+        entity: fire
+  abuse:
+    type: categorical
+    values:
+      - beating
+      - rape
+      - abuse
+      - physical abuse
+    mappings:
+      - type: from_entity
+        entity: abuse
+  EmergencyCheck:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: EmergencyCheck
+  country:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: country
+  affirm:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: affirmation
+
+  emergency_bot_challenge:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: robot
+  goodbye:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: goodbye
+  Deny:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: deny
+  message_thanks:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: thanks
+entities:
+  - ambulance
+  - fire
+  - abuse
+  - EmergencyCheck
+  - goodbye
+  - greeting
+  - Police
+  - robot
+  - country
+  - thanks
+  - deny
+  - new_query
+  - affirmation
+responses:
+  utter_greet:
+    - text: Hey you! I am Ares, your emergency bot ! Is there any emergency situation?
+    - text: Hello, I am Ares and I  can offer you assistance on emergency situations. Is there any emergency problem?
+  utter_continue:
+    - text: At your disposal so which else emergency service do you need?
+  utter_checking_emergency:
+    - text: Are you in emergency situation? Please say yes, or no!
+  utter_kind_of_emergency:
+    - text: In what kind of emergency are you?! I can provide you with emergency
+        numbers of Police, Fire, Ambulance or Abuse.
+  utter_deny:
+    - text: Let me know if you need help!
+  utter_goodbye:
+    - text: Thanks for your interaction. In case of any emergency situation, you can
+        talk to me again. Bye!
+    - text: Goodbye, stay safe! If you need something else, write to me again!
+  utter_ask_emergency_country:
+    - text: Ok, don't worry, we'll find a solution. Which country or territory do you live in?
+    - text: Well, I would like to give me the country or the territory name, so as to help you!
+  utter_helping_bot:
+    - text: Thank you for your information! So, if the mergency number is available. Take
+        your time,and call!
+  utter_emergency_bot:
+    - text: Well, I am bot for emergency situations!
+    - text: Well, let me talk to you about me...! I'm Ares, an emergency bot! I can offer assistance providing you with emergency numbers based on the country you live in!
+    - text: I am Ares, an emergency bot, i could provide you with emergency numbers for the following services Fire, Police, Abuse or Ambulance. Are you in emergency situation?
+  utter_you're_welcome:
+    - text: You're welcome!
+  utter_emergency_abuse:
+    - text: The emergency number for abuse varies by country and type of abuse. In the United States, the emergency number for domestic abuse is 911, and the National Domestic Violence Hotline can be reached at 1-800-799-7233. For child abuse, the emergency number is also 911, and the Childhelp National Child Abuse Hotline can be reached at 1-800-4-A-Child (1-800-422-4453). For sexual abuse, the emergency number is 911, and the National Sexual Assault Hotline can be reached at 1-800-656-HOPE (1-800-656-4673).
+     
+actions:
+  - utter_greet
+  - utter_emergency_abuse
+  - utter_continue
+  - utter_checking_emergency
+  - utter_kind_of_emergency
+  - utter_deny
+  - utter_goodbye
+  - utter_ask_emergency_country
+  - utter_helping_bot
+  - utter_emergency_bot
+  - action_reset_slots
+  - action_emergency_numbers
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
