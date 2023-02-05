@@ -1,0 +1,107 @@
+version: "3.1"
+nlu:
+- intent: greeting
+  examples: |
+    - [good evening](greeting)
+    - [goodevening](greeting)
+    - [hello there](greeting)
+- intent: emergency_fire
+  examples: |
+    - FIRE
+    - I need to phone the [firefighters](fire)
+    - My house is burning please I need to contact the [firefighters](fire)
+- intent: goodbye
+  examples: |
+    - [Good afternoon](goodbye)
+    - [Bye now](goodbye)
+    - [antios](goodbye)
+    - [byee](goodbye)
+- intent: emergency_abuse
+  examples: |
+    - my family [beats](abuse) me
+    - my siblings [beats](abuse) me
+    - I want the emergency [abuse](abuse) number
+- intent: Deny
+  examples: |
+    - [nope](deny)
+    - [dont think] so(deny)
+    - [no way](deny)
+    - [no no](deny)
+    - I [dont](deny)think so
+- intent: affirm
+  examples: |
+    - [Yes](affirmation) I need you
+    - [Sure](affirmation)
+    - [y](affirmation)
+    - [yesh](affirmation)
+- intent: emergency_bot_challenge
+  examples: |
+    - Hello are you a [digital assistant](robot)
+    - heeey [bot](robot)
+    - Are you an [AI](robot)
+    - Hi there are you an [automaton](robot)
+    - hey [robot](robot)
+- intent: new_query
+  examples: |
+    - Give a [different](new_query) service
+    - I need [more](new_query)
+    - you offer me something [else](new_query)
+    - Can you provide me with a [different](new_query) emergency number
+    - Can you provide me with [another](new_query) emergency service number
+    - Can you provide me with an [alternative](new_query)
+- intent: checking_emergency
+  examples: |
+    - it's [burning](EmergencyCheck)
+    - i dont feel very well
+    - I need to contact someone right away
+    - Could you [help](EmergencyCheck) me
+    - We want an [urgent](EmergencyCheck) help
+- intent: emergency_ambulance
+  examples: |
+    - Can you help me find a [hospital](ambulance)
+    - [Ambulance](ambulancenow
+    - I think I need to call an [ambulance](ambulance)
+    - We've had an accident people's health is critical
+    - Please alarm [paramedics](ambulance)
+    - Give me the [sick transport](ambulance) number please
+- intent: thankyounote
+  examples: |
+    - My deep [appreciation](thanks)
+    - [Mercii](thanks)
+    - (Marvelous)(thanks)
+    - [Thanks](thanks) for your help
+    - [thaanks](thanks)
+    - [Thank](thanks) you Ares
+- intent: country
+  examples:
+  - text: |
+      [Kenya](country)
+  - text: |
+      [New zeland](country)	
+  - text: |
+      [England](country)
+  - text: |
+      [Syria](country)
+  - text: |
+      [France](country)
+  - text: |
+      [Kazaksthan](country)	
+- intent: emergency_police
+  examples: |
+    - Help from the [police service](Police) is required please
+    - I need the number of the [police officer](Police) please
+    - What is the [cops](Police) number
+    - What is the [sheriff](Police) number
+    - I have to call the [sheriff](Police)
+    - Please help from the [officer](Police) is required
+    - I need to phone [military police](Police) please
+    - number of the [officers](Police)
+    - I want to call the [police authority](Police) please
+    - I have to call the [police](Police)
+    - Please I have to alert the [police](Police) theft has happened
+    - Emergency number [criminal justice](Police) is required please
+    - Please I have to contact the [police department](Police)
+    - I have to contact the [law](Police) please
+    - We want the service of the [police](Police) here
+    - I have to contact the [police liutenant](Police) please
+    - the number of[public security](Police) please
